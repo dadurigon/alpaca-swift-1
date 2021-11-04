@@ -4,7 +4,6 @@ import FoundationNetworking
 #endif
 
 /// Swift API client for Alpaca’s trade API.
-/// Contribute on [GitHub](https://github.com/pixel-foundry/alpaca-swift).
 public final class Alpaca {
 
 	public init(
