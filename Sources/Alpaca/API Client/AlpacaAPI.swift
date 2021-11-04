@@ -54,7 +54,7 @@ public final class AlpacaAPI {
 				completion(.failure(error))
 			} else if let data = data {
 				do {
-					print(String(data: data, encoding: .utf8))
+                    print(String(data: data, encoding: .utf8) as Any)
 					let value = try AlpacaAPI.decoder.decode(T.self, from: data)
 					completion(.success(value))
 				} catch {
